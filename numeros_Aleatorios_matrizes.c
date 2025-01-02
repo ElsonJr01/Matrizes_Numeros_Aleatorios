@@ -19,7 +19,7 @@ int main (){
 	printf("\nGerando numero de matriz aleatorio!\n");
 	for(i=0; i<4; i++){
 		for(j=0; j<4; j++){
-		    printf("%2d ", mat1[i][j]);
+		    printf("%5d ", mat1[i][j]);
 		}	printf("\n");
 	}
 	printf("\nMultiplicando por dois \n");
@@ -30,7 +30,7 @@ int main (){
 	}
 	for(i=0; i<4; i++){
 		for(j=0; j<4; j++){
-		    printf("%2d ", mat2[i][j]);
+		    printf("%5d ", mat2[i][j]);
 		}	printf("\n");
 	}
 	
